@@ -1,6 +1,4 @@
-FROM alpine:3.14
-# RUN apk add --update 
-# RUN apk add --update nginx 
+FROM ubuntu
 
 RUN apt-get update
 RUN apt-get install nginx -y
